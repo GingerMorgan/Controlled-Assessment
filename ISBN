@@ -1,0 +1,19 @@
+ def ISBN():
+        numlist = []
+        request = raw_input("Please enter the 10 digit number:  ")
+        if len(request) == 10:
+            **numlist == request
+            print numlist**
+        if len(request) != 10:
+            print "Invalid Input"
+            ISBN()
+
+ def ISBN():
+    request = raw_input("Please enter the 10 digit number:  ")
+    if len(request) == 10:
+        numlist = list(request)
+        print numlist
+    else:
+        print "Invalid Input"
+
+ISBN()
